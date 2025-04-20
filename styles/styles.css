@@ -30,6 +30,11 @@ nav a:hover {
 main {
   padding: 1rem;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
 footer {
   background: #EEE;
   text-align: center;
