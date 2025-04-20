@@ -1,50 +1,42 @@
-/* Grid Layout */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
+header {
+  background: #002366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
-
-/* Navigation */
 nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 1rem;
-    background: #002366;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  background: #FFD700;
+  display: flex;
+  justify-content: center;
 }
-
 nav a {
-    color: #FFD700;
-    text-decoration: none;
-    transition: transform 0.3s;
+  text-decoration: none;
+  color: #002366;
+  margin: 0 1rem;
+  padding: 0.25rem;
 }
-
+nav a.active,
 nav a:hover {
-    transform: scale(1.1);
+  text-decoration: underline;
 }
-
-/* Slideshow */
-.slideshow {
-    height: 400px;
-    overflow: hidden;
-    position: relative;
+main {
+  padding: 1rem;
 }
-
-.slide {
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s;
+footer {
+  background: #EEE;
+  text-align: center;
+  padding: 0.5rem;
 }
-
-.slide.active {
-    opacity: 1;
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
 }
