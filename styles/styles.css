@@ -84,6 +84,21 @@ nav a.active {
   border-bottom: 2px solid #002366;
 }
 
+.hero {
+  height: 200px;
+  background: linear-gradient(135deg, #002366 0%, #001f52 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+
 /* --------------------------------------------------------------------------
    4. Components & Utilities
    -------------------------------------------------------------------------- */
