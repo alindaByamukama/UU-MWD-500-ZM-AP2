@@ -69,9 +69,10 @@ main {
   background: #001f52;
 }
 footer {
-  background: #EEE;
+  background: #f4f4f4;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
 @media (max-width: 600px) {
   nav ul {
