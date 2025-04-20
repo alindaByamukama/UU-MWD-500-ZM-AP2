@@ -115,6 +115,24 @@ main {
 .card h4 {
   margin-top: 0;
 }
+.faculty-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+@media (min-width: 600px) {
+  .faculty-grid { grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) ); }
+}
+.faculty-card {
+  text-align: center;
+}
+.faculty-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.faculty-card h4 {
+  margin: 0.5rem 0 0.25rem;
+}
 footer {
   background: #f4f4f4;
   text-align: center;
