@@ -44,6 +44,11 @@ main {
   margin: 0 auto;
   padding: 1rem;
 }
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 footer {
   background: #EEE;
   text-align: center;
