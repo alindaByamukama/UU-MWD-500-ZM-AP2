@@ -25,7 +25,11 @@ nav ul {
   background: #FFD700;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
 }
+
 nav a {
   text-decoration: none;
   color: #002366;
