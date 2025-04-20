@@ -72,6 +72,15 @@ main {
 .btn:hover {
   background: #001f52;
 }
+.contact-wrapper {
+  display: grid;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 footer {
   background: #f4f4f4;
   text-align: center;
