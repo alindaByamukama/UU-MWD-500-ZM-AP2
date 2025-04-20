@@ -1,0 +1,50 @@
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+    background: #002366;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+/* Slideshow */
+.slideshow {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.slide.active {
+    opacity: 1;
+}

@@ -1,0 +1,56 @@
+<!-- faculty.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty | Computer Science Department</title>
+  <meta name="description" content="Meet the faculty members driving teaching and research in the CS department.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'UA-XXXXXX-X');
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header><img src="assets/header-banner.png" alt="Department Banner" loading="lazy"></header>
+  <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+  <nav role="navigation" id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="programs/undergrad.html">Undergraduate</a></li>
+      <li><a href="programs/grad.html">Graduate</a></li>
+      <li><a href="faculty.html" class="active">Faculty</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main id="main">
+    <section>
+      <h1>Meet Our Faculty</h1>
+      <div class="faculty-grid">
+        <div class="faculty-member">
+          <img src="assets/faculty/jane-doe.jpg" alt="Prof. Jane Doe">
+          <h3>Prof. Jane Doe</h3>
+          <p>Research: Artificial Intelligence</p>
+        </div>
+        <div class="faculty-member">
+          <img src="assets/faculty/john-smith.jpg" alt="Dr. John Smith">
+          <h3>Dr. John Smith</h3>
+          <p>Research: Cybersecurity</p>
+        </div>
+        <!-- Add more members as needed -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Contact: <a href="mailto:cs@university.edu">cs@university.edu</a> | © 2025 XYZ University</p>
+  </footer>
+  <script src="scripts/slideshow.js"></script>
+  <script src="scripts/menu-toggle.js"></script>
+</body>
+</html>
