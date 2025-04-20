@@ -98,6 +98,23 @@ main {
 @media (min-width: 768px) {
   .two-col { grid-template-columns: 1fr 1fr; }
 }
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+@media (min-width: 600px) {
+  .card-grid { grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ); }
+}
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.card h4 {
+  margin-top: 0;
+}
 footer {
   background: #f4f4f4;
   text-align: center;
