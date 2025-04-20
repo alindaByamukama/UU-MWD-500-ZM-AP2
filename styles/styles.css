@@ -81,6 +81,15 @@ main {
     grid-template-columns: 1fr 1fr;
   }
 }
+.contact-info {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+.contact-info a {
+  color: #002366;
+  text-decoration: none;
+}
 footer {
   background: #f4f4f4;
   text-align: center;
