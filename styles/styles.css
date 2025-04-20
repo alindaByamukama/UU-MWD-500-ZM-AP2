@@ -90,6 +90,14 @@ main {
   color: #002366;
   text-decoration: none;
 }
+.two-col {  
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+@media (min-width: 768px) {
+  .two-col { grid-template-columns: 1fr 1fr; }
+}
 footer {
   background: #f4f4f4;
   text-align: center;
