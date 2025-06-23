@@ -1,5 +1,6 @@
 # UU-MWD-500-ZM-AP2
 **Assignment 2 – Design a Website for Your University Department**
+> [Live Deployment of website here.](https://alindabyamukama.github.io/UU-MWD-500-ZM-AP2/)
 
 ## Overview
 
