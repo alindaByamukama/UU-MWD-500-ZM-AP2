@@ -295,8 +295,11 @@ button {
 footer {
   background: #f4f4f4;
   text-align: center;
-  padding: 1rem;
   font-size: 0.9rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /* --------------------------------------------------------------------------
