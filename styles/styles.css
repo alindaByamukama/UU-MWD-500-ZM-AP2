@@ -236,7 +236,7 @@ button {
 /* Cardify each contact panel */
 .contact-wrapper > section {
   background: #f9f9f9;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
